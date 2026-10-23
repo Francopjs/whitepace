@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>WhiteSpace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="./img/Logo.svg" alt="logo de la empresa WhiteSpace"></div>
+            <ul>
+                <li><a href="#WorkTogether">Work</a></li>
+                <li><a href="#UseExtension">Extensions</a></li>
+                <li><a href="#Planes">Pricing</a></li>
+                <li><a href="#Formulario">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="GetMore">
+            <div class="ContenedorTitulo">
+                <h1>Get More Done with whitepace</h1>
+                <p>Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks</p>
+            </div>
+            <div>
+                <img src="./img/Imagen-Section1.svg" alt="Apps como slack, teams, calendar, etc." class="Imagen-BannerSimple">
+            </div> 
+        </section>
+
+        <section id="WorkTogether">
+            <div>
+                <img src="./img/Imagen-Section2.svg" alt="Circulos alrededor del logo de WhiteSpace" class="Imagen-BannerSimple">
+            </div> 
+            <div class="ContenedorTitulo">
+                <h2>Work <span class="Subrayado-amarillo">together</span></h2>
+                <p>With whitepace, share your notes with your colleagues and collaborate on them. You can also publish a note to the internet and share the URL with others. </p>
+            </div>
+            
+        </section>
+
+        <section id="UseExtension">
+            <div>
+                <h2>Use as <span class="Subrayado-amarillo">Extension </span></h2>
+                <p>Use the web clipper extension, available on Chrome and Firefox, to save web pages or take screenshots as notes. </p>
+            </div>
+            <div>
+                <img src="./img/Imagen-Section3.svg" alt="Iconos de Base de Datos, Llaves, simulando extensiones de la marca">
+            </div> 
+        </section>
+
+        <section id="Planes">
+            <div>
+                <h2>Choose your Plan</h2>
+                <p>Whether you want to get organized, keep your personal life on track, or boost workplace productivity, Evernote has the right plan for you.</p>
+            </div>
+            
+            <div class="ContenedorCards">
+                
+                <article class="Card">
+                    <h4>Free</h4>
+                    <h3>$ 0</h3>
+                    <p>Capture ideas and find them quickly</p>
+
+                    <ul>
+                        <li>Sync unlimited devices</li>
+                        <li>10 GB monthly uploads</li>
+                        <li>200 MB max. note size</li>
+                        <li>Customize Home dashboard and access extra widgets</li>
+                        <li>Connect primary Google Calendar account</li>
+                        <li>Add due dates, reminders, and notifications to your tasks</li>
+                    </ul>
+                </article>
+
+                <article class="Card Gold">
+                    <h4>Personal</h4>
+                    <h3>$ 11.99</h3>
+                    <p>Keep home and family on track</p>
+
+                    <ul>
+                        <li>Sync unlimited devices</li>
+                        <li>10 GB monthly uploads</li>
+                        <li>200 MB max. note size</li>
+                        <li>Customize Home dashboard and access extra widgets</li>
+                        <li>Connect primary Google Calendar account</li>
+                        <li>Add due dates, reminders, and notifications to your tasks</li>
+                    </ul>
+                </article>
+
+                <article class="Card">
+                    <h4>Organization</h4>
+                    <h3>$ 49.99</h3>
+                    <p>Capture ideas and find sthem quickly</p>
+
+                    <ul>
+                        <li>Sync unlimited devices</li>
+                        <li>10 GB monthly uploads</li>
+                        <li>200 MB max. note size</li>
+                        <li>Customize Home dashboard and access extra widgets</li>
+                        <li>Connect primary Google Calendar account</li>
+                        <li>Add due dates, reminders, and notifications to your tasks</li>
+                    </ul>
+                </article>
+                
+            </div> 
+        </section>
+
+        <section id="YourWork">
+            <h2>Your work, <span class="Subrayado-azul">everywhere</span> you are</h2>
+            <p>Access your notes from your computer, phone or tablet by synchronising with various services, including whitepace, Dropbox and OneDrive. The app is available on Windows, macOS, Linux, Android and iOS. A terminal app is also available!</p>
+        </section>
+
+        <section id="Sponsors">
+            <h2>Our Sponsors</h2>
+            <div class="ImagenesSponsors">
+                <img src="./img/Apple.svg" alt="Logo de la Empresa Apple"> <img src="./img/Microsoft.svg" alt="Logo de la Empresa Microsoft"> <img src="./img/Slack.svg" alt="Logo de la Empresa Slack"> <img src="./img/Google.svg" alt="Logo de la Empresa Google">
+            </div>
+        </section>
+
+        <section id="Formulario">
+            <div class="CabeceraFormulario">
+                <h2>Contact us</h2>
+                <p>Tell us about your project, ask a question, or request a demo. We’ll get back to you shortly.</p>
+            </div>
+            <form>
+                <label for="Nombre">Nombre y Apellido</label>
+                <input id="Nombre" type="text" name="Nombre" required>
+
+                <label for="Telefono">Teléfono</label>
+                <input id="Telefono" type="tel" name="Telefono" required placeholder="XXX-XXXXXX">
+
+                <label for="email">Email</label>
+                <input id="email" type="email" name="Email" required placeholder="ejemplo@gmail.com">
+
+                <label for="Comentario">Dejanos algun dato mas</label>
+                <textarea id="Comentario" name="Comentario" rows="10" cols="50"></textarea>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="CabeceraFooter">
+            <img src="./img/Logo.svg" alt="logo de la empresa WhiteSpace">
+            <p>whitepace was created for the new ways we live and work.</p>
+            <p>We make beautyfully designed around the world</p>
+        </div>
+
+        <div class="Redes">
+        <a href="https://facebook.com" target="_blank">
+            <img src="./img/Facebook.svg" alt="Logo de Facebook">
+        </a>
+        <a href="https://x.com" target="_blank">
+            <img src="./img/Twitter.svg" alt="Logo de X (Twitter)">
+        </a>
+        <a href="https://linkedin.com" target="_blank">
+            <img src="./img/Linkedin.svg" alt="Logo de LinkedIn">
+        </a>
+        </div>
+    </footer>
+
+
+
+</body>
+</html>
