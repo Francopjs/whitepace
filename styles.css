@@ -15,6 +15,9 @@
     font-family: "Inter", sans-serif;
 }
 
+/*-------------------JavaScript---------------------*/
+
+/*----------------------------------------*/
 
 /*Mobile First*/
 
@@ -22,12 +25,20 @@
 /*Barra de Navegacion*/    
 nav{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
         row-gap: 20px;
         width: 100%;
         padding: 20px;
         align-items: center;   
         background-color: var(--azul-marino);
+}
+
+.btnMenu{
+    font-size: 32px;
+    cursor: pointer;
+    background-color: var(--azul-marino);
 }
 
 .logo img{
@@ -36,12 +47,19 @@ nav{
 }
 
 .listaMenu{
-        display: flex;
+        display: none;
         list-style: none;
         width: 100%;
         justify-content: space-around;
         padding: 0; 
         margin: 0;
+}
+
+.listaMenu.abierto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 .listaMenu li a{
@@ -298,11 +316,13 @@ footer{
 @media (min-width: 768px) 
 {
     /*Barra de Navegacion*/  
-    nav{
-        flex-direction: row;
-    }
+
+.btnMenu{
+    display: none;
+}
 
     .listaMenu{
+        display: flex;
         justify-content: flex-end;
         gap: 20px;
     }
